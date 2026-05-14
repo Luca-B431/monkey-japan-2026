@@ -119,3 +119,34 @@ body {
   background: var(--color-kraft);
   border-radius: 3px;
 }
+
+/* MapLibre GL overrides - paper aesthetic */
+.maplibregl-map {
+  font-family: var(--font-handwritten);
+}
+
+.maplibregl-ctrl-group {
+  background: var(--color-paper) !important;
+  border: 1px solid var(--color-kraft) !important;
+  border-radius: 8px !important;
+  box-shadow: 1px 2px 8px rgba(44, 24, 16, 0.1) !important;
+}
+
+.maplibregl-ctrl-group button {
+  color: var(--color-ink) !important;
+}
+
+.maplibregl-ctrl-attrib {
+  background: rgba(255, 252, 245, 0.75) !important;
+  font-family: var(--font-handwritten) !important;
+  font-size: 10px !important;
+}
+
+.maplibregl-ctrl-attrib a {
+  color: var(--color-ink) !important;
+  opacity: 0.6;
+}
+
+.maplibregl-ctrl-attrib a:hover {
+  opacity: 1;
+}
